@@ -123,20 +123,38 @@ button {
 }
 
 .information {
-  /* width: 120px; */
     display: inline-flex;
-    /* text-align: center; */
     margin-top:  150px;
 }
 
 /* Section-Three */
+
 .section-three {
     background-color: #E5E7EB;
     margin-top: 250px;
-    padding: 100px;
-
+    padding: 30px;
+   
+   
 }
 
 .section {
+   
+}
+
+.info {
+     /* position: sticky; */
+     font-size: 36px; 
+     font-weight: lighter;
+     font-style: italic;
+     width: 780px;
+     max-width: 100%;
+     margin-left: 320px;
+    
+}
+
+
+
+.info2 {
+    margin-left: 890px;
     
 }
