@@ -122,6 +122,7 @@ ul li {
 .information {
     display: inline-flex;
     margin-top:  150px;
+    text-align: center;
 }
 
 /* Section-Three */
@@ -130,32 +131,49 @@ ul li {
     background-color: #E5E7EB;
     margin-top: 250px;
     padding: 30px;
-   
-   
+    /* display: flex;
+    align-items:self-end;
+    justify-content: center; */
+    
 }
 
-.section {
-   
-}
+.info-container {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     margin-right: 120px;
+     margin-top: 40px;
+}   
 
 .info {
-     /* position: sticky; */
+    
      font-size: 36px; 
      font-weight: lighter;
      font-style: italic;
      width: 780px;
      max-width: 100%;
-     margin-left: 470px;
      color: #1f2937;
+     margin: 20px 2px 20px 220px;
+ }
+
+ .info2-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-left: 590px;
+    margin-bottom: 30px;
     
-}
 
+     
+ }
 
-
-.info2 {
-    margin-left: 990px;
-    
-}
+ .info2 {
+    position:absolute;
+    top: 129%;
+    font-weight: bold;
+ 
+ }
 
 
 /* Section-Four */
@@ -180,9 +198,20 @@ ul li {
     max-width: 100%;
     margin-left: 400px;
     margin-right: 400px;
-    flex-direction: row;
+    /* padding: 20px; */
+ 
 
 
+}
+
+.container4-info {
+    position: relative;
+ 
+    top: 7px;
+}
+
+.container-section {
+    margin-right: 220px;
 }
 
 
@@ -196,4 +225,15 @@ ul li {
     margin: 2px;
     width: 120px;
     /* float: right; */
+}
+
+.sign-up2-container {
+     padding: 30px
+}
+
+
+.container4-info2 {
+    font-weight: lighter;
+    font-size: small;
+    
 }
