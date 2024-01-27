@@ -34,29 +34,39 @@ ul li {
 .container1 {
     display: flex;
     flex-direction: column;
- 
-    margin-left: 250px;
+    border: 1px solid white;
+    margin-left: 320px;
+    position: relative;
+    top: 1px;
+    
 }
 
 
+.new-container {
+    margin-bottom: 120px;
+    
+}
 
 
 .container2 {
-   color: #f9faf8;
-   border: 1px solid gray;
-   background-color: gray;
-   display: flex;
-   align-self: end;
-   position: relative;
-   bottom: 220px;
-   right: 400px;
-    padding: 100px 120px 90px 120px;
-    font-weight: lighter;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    left: 590px;
+    bottom: 120px;
 }
 
-/* .container2 p {
-    text-align: center;
-} */
+.section-header {
+    padding-right: 140px;
+    padding-left: 140px; 
+    margin-top: 90px;
+    color: #f9faf8;
+    border: 1px solid gray; 
+    background-color: rgb(149, 149, 149); 
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 
 
 
@@ -66,13 +76,13 @@ ul li {
     position: relative;
     color: #f9faf8;
     width:  400px;
-    margin-bottom: 1px;
+    margin-bottom: 20px;
     
 
 }
 
 .sign-up {
-    max-width: 100px;
+    /* max-width: 100px;
     border-radius: 7px;
     background-color: #3882f6;
     color: white;
@@ -80,7 +90,7 @@ ul li {
     border: none;
     margin: 2px;
     position: relative;
-    bottom: 30px;
+    bottom: 192px; */
     
 }
 
@@ -90,17 +100,17 @@ ul li {
 .secondary {
     font-size: 18px;
     color: #E5E7EB;
-    width: 400px;
+    width: 440px;
     font-weight: lighter;
     position: relative;
     bottom: 20px;
-    /* display: flex; */
-    /* margin-top: -120px; */
+    display: flex; 
 }
 
 
 
 /* Section-Two */
+
 
     .section-two-header {
         text-align: center;
@@ -186,7 +196,7 @@ ul li {
 
  .info2 {
     position:absolute;
-    top: 167%;
+    top: 150%;
     font-weight: bold;
  
  }
@@ -252,4 +262,13 @@ ul li {
     font-weight: lighter;
     font-size: small;
     
+}
+
+/* Footer */
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
 }
