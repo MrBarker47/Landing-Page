@@ -220,17 +220,11 @@ ul li {
     border-radius: 4px;
     background-color: #3882f6;
     max-width: 100%;
-    margin-left: 400px;
-    margin-right: 400px;
-    /* padding: 20px; */
- 
-
-
-}
+    margin: 200px 125px 0px 125px;
+ }
 
 .container4-info {
     position: relative;
- 
     top: 7px;
 }
 
@@ -240,7 +234,7 @@ ul li {
 
 
 .sign-up2 {
-    max-width: 100px;
+    max-width: 100%;
     border: 2px solid white;
     border-radius: 7px;
     background-color: #3882f6;
@@ -269,4 +263,5 @@ ul li {
     justify-content: center;
     background-color: #1f2937;
     color: white;
+    position: sticky;
 }
