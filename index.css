@@ -194,7 +194,7 @@ ul li {
 
  .info2 {
     position:absolute;
-    top: 154%;
+    /* top: 154%; */
     font-weight: bold;
  
  }
